@@ -1,0 +1,416 @@
+body {
+    background-color: pink;
+}
+
+div {
+    color: #D9D9D9;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #171717;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 5px;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: -10px;
+    z-index: 5;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding: 2.5px;
+}
+
+.item {
+    width: 3.5%;
+    align-items: center;
+
+}
+
+/* .item:hover {
+    opacity: 50%;
+} */
+
+.greetBackground {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    z-index: -1;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.greet {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 88px;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.career {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    position: absolute;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greeting {
+    position: relative;
+}
+
+
+#gradientImage {
+    margin-top: 70vh;
+    margin-left: 50%;
+}
+
+.gradient {
+    justify-content:center;
+    width: 100vw;
+    justify-content: stretch;
+    height:110vh;
+    position: fixed;
+    z-index: -2;
+    margin-left: -50vw;
+    top: 0vh;
+}
+
+
+#aboutMe {
+    /* border: red 4px solid;  */
+    margin-top: 0%;
+    margin-left: 50%;
+
+}
+
+.aboutMeHeading {
+    background-color: #171717;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+
+.aboutMeDescription {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 2.5vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 80vh;
+    left: 5vw;
+    width: 40vw;
+}
+
+.skillsImage {
+    width: 42vw;
+    position: absolute;
+    top: 130vh;
+    right: 55vw;
+    margin-bottom: 5vh;
+}
+
+.headshotImage {
+    width: 42vw;
+    position: absolute;
+    top: 85vh;
+    right: 5vw;
+    margin-bottom: 5vh;
+}
+
+
+#projects {
+    /* border: red 4px solid; */
+    margin-top: 60%;
+    margin-left: 50%;
+}
+
+.projectsHeading {
+    background-color: #171717;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);   
+    /* top: 174.4vh; */
+    width: 100vw;
+
+}
+
+.projectsDescription1 {
+        background-color:darkgray;
+        color:#171717;
+        border-color: #171717;
+        border-radius: 10px;
+        font-size: 25px;
+        margin-top: 5vh;
+        padding: 6px;
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        position: absolute;
+        top: 195vh;
+        left: 5vw;
+        right: 5vw;
+}
+
+.projectsDescription2 {
+    background-color:darkgray;
+    color:#171717;
+    border-color: #171717;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 5vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 210vh;
+    left: 5vw;
+    right: 5vw;
+}
+
+.projectsDescription3 {
+    background-color:darkgray;
+    color:#171717;
+    border-color: #171717;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 5vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 225vh;
+    left: 5vw;
+    right: 5vw;
+}
+
+
+#education {
+    margin-top: 37.5%;
+    margin-left: 50%;
+}
+
+.educationHeading {
+    background-color: #171717;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.educationDescription {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 0vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 275vh;
+    left: 5vw;
+    right: 5vw;
+}
+
+
+#hobbies {
+    margin-top: 27.5%;
+    margin-left: 50%;
+}
+
+.hobbiesHeading {
+    background-color: #171717;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.hobbiesDescriptionVolleyball {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 5vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 330vh;
+    left: 5vw;
+    right: 50vw;
+}
+
+.volleyballImage {
+    width: 40vw;
+    margin-top: 0vh;
+    position: absolute;
+    top: 335vh;
+    left: 50vw;
+    right: 5vw;
+}
+
+.hobbiesDescriptionGuitar {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 20vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 360vh;
+    left: 50vw;
+    right: 5vw;
+}
+
+.guitarImage {
+    width: 35vw;
+    margin-top: 25vh;
+    position: absolute;
+    top: 355vh;
+    left: 5vw;
+    right: 87550vw;
+}
+
+.hobbiesDescriptionGames {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 35vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 395vh;
+    left: 5vw;
+    right: 50vw;
+}
+
+.gamesImage {
+    width: 40vw;
+    margin-top: 40vh;
+    position: absolute;
+    top: 390vh;
+    left: 50vw;
+    right: 5vw;
+}
+
+.hobbiesDescriptionAnime {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 60vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 425vh;
+    left: 50vw;
+    right: 5vw;
+}
+
+.animeImage {
+    width: 40vw;
+    margin-top: 65vh;
+    position: absolute;
+    top: 420vh;
+    left: 5vw;
+    right: 50vw;
+}
+
+
+#contact {
+    margin-top: 115%;
+    margin-left: 50%;
+}
+
+.contactHeading {
+    background-color: #171717;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 100%;
+    padding-right: 100%;
+    transform: translateX(-50%);
+    width: 100vw;
+    margin-top: 27.5vh
+}
+
+.contactDescription {
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 40vh;
+    padding: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    position: absolute;
+    top: 525vh;
+    left: 5vw;
+    right: 5vw;
+    padding-bottom: 50vh;
+}
+
+a {
+    color:turquoise;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 50%;
+}
